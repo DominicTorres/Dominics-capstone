@@ -1,0 +1,41 @@
+body {
+    background-image: url(BMXbackground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    /*this darkens the image so the text is readable*/
+    background-blend-mode: overlay;
+  }
+
+/*for nav bar*/
+.nav-masthead .nav-link {
+    padding: 5px;
+    font-weight: 700;
+    color: rgba(247, 75, 75, 0.829);
+    background-color: transparent;
+    border-bottom: 1rem solid transparent;
+  }
+  
+/*For fixed logo I made*/
+#logo{ 
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+} 
+/*Footer style*/
+#footer { 
+    position: fixed; 
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    /* Height of the footer*/  
+    height: 38px;
+    background-color: rgb(0, 0, 0);
+} 
+/*for card text color*/
+h5{
+    color: black;
+}
