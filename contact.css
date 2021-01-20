@@ -51,7 +51,7 @@ input[type=text], select, textarea {
   /*styling for the submit button :)*/
   input[type=submit] {
     background-color: #e95454;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -60,7 +60,7 @@ input[type=text], select, textarea {
   
   /* Little change of color when hovering over the submit button */
   input[type=submit]:hover {
-    background-color: black;
+    background-color: rgb(255, 0, 0);
   }
   
   /*Background color for the contact form*/
